@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body{
+        @apply flex justify-center items-center w-screen m-0 p-0 font-sans
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        @apply m-0 p-0
+    }
+    .menuler svg{
+        @apply w-7
+    }
+    .textarray svg{
+        @apply w-7
+    }
+    .yorumlar svg{
+        @apply w-8
+    }
+    .categorymenu > *{
+        /*@apply bg-red-700*/
+    }
+}
+
+.categorymenu svg{
+    width: 27px;
+}
+.trending h1{
+    font-family: "Tahoma", sans-serif !important;
+    font-weight: lighter;
+    color: #757575 !important;
+}
